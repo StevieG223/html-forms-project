@@ -1,0 +1,170 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+  }
+  * {
+    margin: 0;
+  }
+
+  body {
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+    display: flex;
+    background-color: whitesmoke;
+    
+  }
+
+  img, picture, video, canvas, svg {
+    display: flex;
+    max-width: 100%;
+  }
+
+  input, button, textarea, select {
+    font: inherit;
+  }
+
+  p, h1, h2, h3, h4, h5, h6 {
+    overflow-wrap: break-word;
+  }
+
+  #root, #__next {
+    isolation: isolate;
+  }
+
+.sidebar{
+    background-image: url(C:/Users/steve/web_dev_stuff/form-project/halie-west-25xggax4bSA-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: none;
+    position: sticky;
+    display: flex;
+    width: 33%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-shrink: 0;
+}
+
+.attrib{
+    color: #FFFFFF;
+    font-size: 0.9rem;
+    position: relative;
+    bottom: 5px;
+}
+
+.attrib a{
+    color: #FFFFFF;
+}
+
+.main-content{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.2rem;
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 1;
+    width: 100%;
+}
+
+.description{
+    margin: 25px;
+}
+
+.description p{
+    padding: 15px;
+}
+
+.logo {
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    display: flex;
+    font-size: 6rem;
+    margin: auto;
+    color: #D6D9DC;
+    background-color: rgba(89, 109, 72, 0.6);
+    width: 100%;
+    padding: 10px 30px;
+    flex-shrink: 0;
+    text-align: center;
+    align-items: baseline;
+    justify-content: center;
+    gap: 20px;
+}
+
+.sign-up-form{
+    background-color: white;
+    border: 1px solid #D6D9DC;
+    border-radius: 3px;
+    padding: 20px;
+    width: 100%;
+    margin: 0 0 40px 0;
+    box-shadow: 10px 30px 15px 6px rgba(0,0,0,0.1);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-around;
+    font-size: 1rem;
+}
+
+.form-col {
+    display: flex;
+    justify-content:flex-start;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 40%;
+}
+  
+.form-col input[type='text'],
+.form-col input[type='email'],
+.form-col input[type='tel'],
+.form-col input[type='password']{
+    background-color: #FFFFFF;
+    border: 1px solid #D6D9DC;
+    border-radius: 3px;
+    width: 80%;
+    font-size: 14px;
+    padding: 5px 20px 5px 20px;
+}
+  
+.form-col button {
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    background-color: #596D48;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    width: 40%;
+  }
+  
+.form-col button:hover {
+    background-color: #76945c;
+}
+  
+.form-col button:active {
+    background-color: #a8d87e;
+}
+.form-col label {
+    margin-top: 10px;
+    margin-bottom: 3px;
+}
+
+p a{
+    font-size: 1.25rem;
+    color: #596D48;
+    font-style: normal;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#odin{
+    width: 10%;
+    color: #D6D9DC;
+}
