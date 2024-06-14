@@ -31,7 +31,7 @@
   }
 
 .sidebar{
-    background-image: url(C:/Users/steve/web_dev_stuff/form-project/halie-west-25xggax4bSA-unsplash.jpg);
+    background-image: url(halie-west-25xggax4bSA-unsplash.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -77,21 +77,21 @@
 }
 
 .logo {
-    font-family: "Roboto", sans-serif;
-    font-weight: 900;
-    font-style: normal;
-    display: flex;
-    font-size: 6rem;
-    margin: auto;
-    color: #D6D9DC;
-    background-color: rgba(89, 109, 72, 0.6);
-    width: 100%;
-    padding: 10px 30px;
-    flex-shrink: 0;
-    text-align: center;
-    align-items: baseline;
-    justify-content: center;
-    gap: 20px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+  display: flex;
+  font-size: 6rem;
+  margin: auto;
+  color: #D6D9DC;
+  background-color: rgba(89, 109, 72, 0.6);
+  width: 100%;
+  padding: 10px 30px;
+  flex-shrink: 0;
+  text-align: center;
+  align-items: baseline;
+  justify-content: center;
+  gap: 20px;
 }
 
 .sign-up-form{
@@ -105,9 +105,10 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    gap: 20px;
+    gap: 10px;
     justify-content: space-around;
     font-size: 1rem;
+    flex-shrink: 1;
 }
 
 .form-col {
@@ -165,13 +166,9 @@ p a{
 }
 
 #odin{
-    width: 10%;
-    color: #D6D9DC;
-}
-
-input:disabled {
-  border: none;
-  outline: none;
+  width: 65px;
+  color: #D6D9DC;
+  flex-shrink: 0;
 }
 
 input:user-invalid {
