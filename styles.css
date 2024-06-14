@@ -168,3 +168,20 @@ p a{
     width: 10%;
     color: #D6D9DC;
 }
+
+input:disabled {
+  border: none;
+  outline: none;
+}
+
+input:user-invalid {
+  border: none;
+  outline: 2px solid rgba(211, 80, 80, 1);
+  color: rgba(211, 80, 80, 0.7);;
+}
+
+input:valid {
+  border: none;
+  outline: 2px solid rgba(80, 211, 106, 1);
+  color: rgba(80, 211, 106, 0.6);;
+}
